@@ -1,0 +1,89 @@
+/* Colors and fonts */
+body{
+	background-color: #BCCAE6;
+	color: #161616;
+	font-family: 'Amatic SC', cursive;
+	font-size: 22px;
+	font-weight: ;
+}
+h1, h2, h3 {
+	font-family: 'Amatic SC', cursive;
+}
+h1{
+	color: #161616;
+	font-size: 45px;
+	font-weight: bolder;
+}
+h2{
+	color: #161616;
+	font-size: 35px;
+	font-weight: ;
+}
+a{
+	text-decoration: none;
+	color: #161616;
+	font-weight: bolder;
+}
+a:hover {
+	color: #BCCAE6;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-ghostwhite {
+	background-color: ghostwhite;
+	padding: 40px;
+	box-shadow: 0px 10px 30px;
+	border-radius: 15px;
+	margin: 60px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-161616 {
+	background-color: #BCCAE6;
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+.btn-161616:hover{
+	background-color: black;
+	color: #ffff; 
+}
+
+.list-honrizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 5px;
+}
